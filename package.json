@@ -16,7 +16,8 @@
   ],
   "dependencies": {
     "@uniswap/lib": "4.0.1-alpha",
-    "@uniswap/v2-core": "1.0.0"
+    "@uniswap/v2-core": "1.0.0",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.6",
@@ -30,7 +31,19 @@
     "rimraf": "^3.0.0",
     "solc": "0.6.6",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.3",
+    "@nomicfoundation/hardhat-chai-matchers": "1.0.4",
+    "@nomicfoundation/hardhat-verify": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@typechain/ethers-v5": "^4.0.0",
+    "bignumber.js": "^9.0.0",
+    "ethers": "^5.7.2",
+    "hardhat": "2.12.2",
+    "hardhat-typechain": "^0.3.5",
+    "mocha-chai-jest-snapshot": "^1.1.0",
+    "prettier-plugin-solidity": "^1.0.0-alpha.59",
+    "ts-generator": "^0.1.1",
+    "typechain": "^4.0.0"
   },
   "scripts": {
     "lint": "yarn prettier ./test/*.ts --check",
